@@ -15,6 +15,17 @@ Before usage please set command and options for terminal app in plugin settings.
 * Terminal command: _cmd /C start cmd.exe /K_
 * Options: _cd /D_
 
+#### Windows (Git Bash):
+
+ * Create a link for _C:\Program Files\Git\git-bash.exe_ in _C:\WINDOWS\system32_ using the name _git-bash_
+ * Create file _run-git-bash.cmd_ in _C:\WINDOWS\system32_ containing the single command: _cmd /C start git-bash --cd=%1_
+ 
+ In a plugin settings: 
+  - Terminal command: _run-git-bash.cmd_
+  - Options: _leave this field empty_
+    
+
+
 #### Windows (with babun or cygwin):
 
  * Terminal command: _C:\<USER-DIRECTORY>\.babun\cygwin\bin\mintty.exe_

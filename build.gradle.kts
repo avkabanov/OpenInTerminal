@@ -9,9 +9,9 @@ plugins {
 group = "pl.lksztmczk"
 version = "2.0.0"
 
-var platformVersion = "2021.1.3"
+var platformVersion = "2021.3"
 var pluginSinceBuild = "201"
-var pluginVerifierIdeVersions = "2020.1.4, 2020.2.4, 2020.3.3, 2021.1, 2021.1.3"
+var pluginVerifierIdeVersions = "2020.1.4, 2020.2.4, 2020.3.3, 2021.1, 2021.1.3, 2021.2, 2021.3"
 
 repositories {
     mavenCentral()
